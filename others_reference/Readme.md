@@ -18,6 +18,6 @@ toxic, severe_toxic, obscene, threat, insult, identity_hate (6 different categor
 
 ~~(3) He mentioned that there are a few empty comments, and fill the values as "unknown", but I couldn't find any Null value when I used the task:~~
 
-   ~~ train.isnull().values.any()~~
+    train.isnull().values.any()
     
  
