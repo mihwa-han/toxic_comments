@@ -49,3 +49,26 @@ toxic, severe_toxic, obscene, threat, insult, identity_hate (6 different categor
         [0, 1, 0, 1, 0, 2, 1, 0, 1],
         [1, 0, 0, 0, 1, 0, 1, 1, 0],
         [0, 1, 1, 1, 0, 0, 1, 0, 1]]...)
+
+two. TfidfTransformer
+In a large text corpus, some words will be very present (e.g. “the”, “a”, “is” in English) hence carrying very little meaningful information about the actual contents of the document. If we were to feed the direct count data directly to a classifier those very frequent terms would shadow the frequencies of rarer yet more interesting terms.
+
+In order to re-weight the count features into floating point values suitable for usage by a classifier it is very common to use the tf–idf transform.
+
+three. TfidVectorizer combines all the options of CountVectorizer and TfidfTransformer in a single model
+
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    vectorizer = TfidfVectorizer()
+    vectorizer.fit_transform(corpus)
+    <4x9 sparse matrix of type '<... 'numpy.float64'>'
+    with 19 stored elements in Compressed Sparse ... format>
+    
+More details : http://scikit-learn.org/stable/modules/feature_extraction.html
+
+His code:
+
+    vec = TfidfVectorizer(ngram_range=(1,2), tokenizer=tokenize,
+               min_df=3, max_df=0.9, strip_accents='unicode', use_idf=1,
+               smooth_idf=1, sublinear_tf=1 )
+    trn_term_doc = vec.fit_transform(train[COMMENT])
+    test_term_doc = vec.transform(test[COMMENT])
