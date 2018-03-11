@@ -55,7 +55,7 @@ In a large text corpus, some words will be very present (e.g. “the”, “a”
 
 In order to re-weight the count features into floating point values suitable for usage by a classifier it is very common to use the tf–idf transform.
 
-three. TfidVectorizer combines all the options of CountVectorizer and TfidfTransformer in a single model
+three. <b>TfidVectorizer</b> combines all the options of CountVectorizer and TfidfTransformer in a single model
 
     from sklearn.feature_extraction.text import TfidfVectorizer
     vectorizer = TfidfVectorizer()
@@ -72,3 +72,24 @@ His code:
                smooth_idf=1, sublinear_tf=1 )
     trn_term_doc = vec.fit_transform(train[COMMENT])
     test_term_doc = vec.transform(test[COMMENT])
+    
+
+(5) <b>Applying Naive Bayes + LogisticRegression</b>
+
+    def naive_bayes(y_i, y):
+        p = x[y==y_i].sum(0)
+        return (p+1) / ((y==y_i).sum()+1)
+        
+    def get_mdl(y):
+        y = y.values
+        print(naive_bayes(1,y))
+        r = np.log(naive_bayes(1,y) / naive_bayes(0,y))
+        m = LogisticRegression(C=4, dual=True)
+        x_nb = x.multiply(r)
+        return m.fit(x_nb, y), r
+
+    preds = np.zeros((len(test), len(label_cols)))
+    for i, j in enumerate(label_cols):
+        print('fit', j)
+        m,r = get_mdl(train[j])
+        preds[:,i] = m.predict_proba(test_x.multiply(r))[:,1]
