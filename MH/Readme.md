@@ -1,8 +1,9 @@
 ## It is time to work!!!
 
-## 03/12/2018
+## 03/12/2018 (0.9859)
 - start to pick Top20 kernels and run them.
 - The best kernel so far with a single model is 15th BI GRU CNN (0.9839) and 20th (0.9837) Bidirectional LSTM with Convolution.
+- Today's best kernel - 01(nb_svm:0.9772) + 03(logistic:0.9792) + 15(GRU_CNN:0.9839) + 18(LGBM) + 20(LSTM) : 0.9859
 
 [plan]
 - use 5 submissions every day (although there is no kernel, rerun old kernel to check the consistent (with different seed. need to carefully choose ... don't waste the limitation of submission)
