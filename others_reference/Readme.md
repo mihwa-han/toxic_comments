@@ -3,7 +3,7 @@ _______
 
 Let's learn from others!!! Always excited to learn :D
 <img src="correlation.png">
-<img src="filenumber.png" width="200">
+<img src="filenumber.png" width="400">
 
 ## (1) Logistic Regression
 ### 01 (0.9772)
