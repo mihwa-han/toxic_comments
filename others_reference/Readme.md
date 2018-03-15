@@ -60,7 +60,7 @@ Let's learn from others!!! Always excited to learn :D
 - Bidirectional GRU (batch=128, epoch=4)
 
 ## (4) CNN
-### 36 (0.9829)
+### 26 (0.9829)
 - using crawl_300d_2M
 - CONV2D (batch=256, epoch=3)
 
