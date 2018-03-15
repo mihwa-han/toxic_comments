@@ -1,17 +1,17 @@
 ## It is time to work!!!
 
+[plan]
+- organize by different model category and try to find the best combination (3/15)
+- make my own kernel (3/16 - 3/18)
+- decide the final kernel carefully (3-19 - 3/20)
+
 ## 03/14/2018 (0.9860)
-- Calculate model correlation : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/50827 (3/14)
+- Calculate model correlation : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/50827 
 - Today's best kernel - 01(nb_svm:0.9772) + 03(logistic:0.9792) + 07(LSTM:0.9768)
  +18(LGBM:0.9792) + 20(LSTM_CONVOLUTIONAL:0.9837) +26(CNN2D:0.9820) + 40(CNN1D:0.9775) : 0.9860
 
 ## 03/13/2018
 - pick TOP30 kernels and stop to copy other kernels. (total ~15 kernels)
-
-[plan]
-- organize by different model category and try to find the best combination (3/15)
-- make my own kernel (3/16 - 3/18)
-- decide the final kernel carefully (3-19 - 3/20)
 
 ## 03/12/2018 (0.9859)
 - start to pick Top20 kernels and run them.
