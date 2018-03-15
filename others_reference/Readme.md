@@ -60,11 +60,11 @@ Let's learn from others!!! Always excited to learn :D
 - Bidirectional GRU (batch=128, epoch=4)
 
 ## (4) CNN
-### 26 (0.9829)
+### 26 (0.9820)
 - using crawl_300d_2M
 - CONV2D (batch=256, epoch=3)
 
-### 40 ()
+### 40 (0.9775)
 - Tokenizer
 - pad_sequence
 - CONV1D (batch=128, epoch=4)
