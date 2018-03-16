@@ -23,9 +23,8 @@ Let's learn from others!!! Always excited to learn :D
 - TF-IDF
 
 ## (2) LSTM
-### 04 (0.9657)
-- Tokenizer
-- Bidirectional LSTM (epoch=1,batch=32)
+~~### 04 (0.9657) - Tokenizer - Bidirectional LSTM (epoch=1,batch=32)
+(almost same to ##7, but no glove.6B.50D)
 
 ~~### 05 (0.9649)~~
 ~~- Tokenizer~~
