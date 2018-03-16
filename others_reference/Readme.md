@@ -55,9 +55,8 @@ Let's learn from others!!! Always excited to learn :D
 - pad-sequence
 - Bidirectional GRU + CONV1D (batch=128, epoch=4)
 
-### 20 (0.9837)
-- using glove.840B.300d
-- Bidirectional GRU (batch=128, epoch=4)
+~~### 20 (0.9837)- using glove.840B.300d Bidirectional GRU (batch=128, epoch=4)~
+(almost same to 15)
 
 ## (4) CNN
 ### 26 (0.9820)
