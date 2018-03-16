@@ -15,6 +15,14 @@ sequence.pad_sequence(list_token,maxlen=maxlen)
     X_te = sequence.pad_sequences(list_tokenized_test, maxlen=maxlen)
     
 ## 3. model = get_model(): (Bidirection LSTM)
+Input
+Embedding
+Bidirectional(LSTM(50))(x)
+GlobalMaxPool1D()(x)
+Dropout(0.1)(x)
+Dense(50)(x)
+Dropout(0.1)(x)
+Dense(6)(x)
 
     model.fit(x,y)
     model.load_weights(file_path)
