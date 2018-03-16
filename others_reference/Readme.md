@@ -14,7 +14,7 @@ Let's learn from others!!! Always excited to learn :D
 - TF-IDF
 - Cross-validation
 
-### 19 (0.9748)
+~~### 19 (0.9748)~~ (super fast script. i like it)
 
 ### 25 (0.9765)
 - Stemmer
