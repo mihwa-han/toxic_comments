@@ -27,9 +27,10 @@ Let's learn from others!!! Always excited to learn :D
 - Tokenizer
 - Bidirectional LSTM (epoch=1,batch=32)
 
-### 05 (0.9649)
+~~### 05 (0.9649)
 - Tokenizer
-- normal LSTM (epoch=1, batch=32)
+- normal LSTM (epoch=1, batch=32)~~
+(almost same to ##04, but not using Bidirectional LSTM)
 
 ### 07 (0.9768)
 - using glove.6B.50d.txt
