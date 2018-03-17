@@ -5,6 +5,11 @@
 - make my own kernel (3/16 - 3/18)
 - decide the final kernel carefully (3-19 - 3/20)
 
+## 03/16/2018 (0.9862)
+- 3_6_9_15_18_26_40.csv 
+- I am starting to be worried about overfitting. i am not sure which one i need to pick as the final decision.
+- most of kernel I uploaded as references are very similar each other... kinda disappointing, but at least learn about Natural Language Processing a little. But, this competition is relatively easy challenge comparing to other NLP because data only has text (and supervised learning). 
+
 ## 03/14/2018 (0.9860)
 - Calculate model correlation : https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/50827 
 - Today's best kernel - 01(nb_svm:0.9772) + 03(logistic:0.9792) + 07(LSTM:0.9768)
