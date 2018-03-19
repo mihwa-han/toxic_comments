@@ -5,6 +5,11 @@
 - make my own kernel (3/16 - 3/18)
 - decide the final kernel carefully (3-19 - 3/20)
 
+## 03/18/2018
+- [The Good, the Band and the Blended](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/51058)
+
+- [Kaggle Ensemble Guide](https://github.com/MLWave/Kaggle-Ensemble-Guide)
+
 ## 03/16/2018 (0.9862)
 - 3_6_9_15_18_26_40.csv 
 - I am starting to be worried about overfitting. i am not sure which one i need to pick as the final decision.
