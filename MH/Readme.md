@@ -10,6 +10,8 @@
 
 - [Kaggle Ensemble Guide](https://github.com/MLWave/Kaggle-Ensemble-Guide)
 
+- [Overall summary](https://www.kaggle.com/jagangupta/lessons-from-toxic-blending-is-the-new-sexy) 
+
 ## 03/16/2018 (0.9862)
 - 3_6_9_15_18_26_40.csv 
 - I am starting to be worried about overfitting. i am not sure which one i need to pick as the final decision.
