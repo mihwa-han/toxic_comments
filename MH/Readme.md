@@ -1,7 +1,6 @@
 ## It is time to work!!!
 
 [plan]
-- organize by different model category and try to find the best combination (3/15)
 - make my own kernel (3/16 - 3/18)
 - decide the final kernel carefully (3-19 - 3/20)
 
@@ -11,6 +10,8 @@
 - [Kaggle Ensemble Guide](https://github.com/MLWave/Kaggle-Ensemble-Guide)
 
 - [Overall summary](https://www.kaggle.com/jagangupta/lessons-from-toxic-blending-is-the-new-sexy) 
+
+- [Spell Check](https://www.kaggle.com/cpmpml/spell-checker-using-word2vec)
 
 ## 03/16/2018 (0.9862)
 - 3_6_9_15_18_26_40.csv 
