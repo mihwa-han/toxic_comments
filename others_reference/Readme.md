@@ -16,7 +16,7 @@ Let's learn from others!!! Always excited to learn :D
 
 ~~### 19 (0.9748)~~ (super fast script. i like it)
 
-### 25 (0.9765) ** the public score for this kernel is ~0.9786
+### 25 (0.9765) ** the private score for this kernel is ~0.9786
 - Stemmer
 - Lemmatizer
 - Cross-validation
