@@ -10,7 +10,7 @@ Let's learn from others!!! Always excited to learn :D
 - TF-IDF
 - Naive Bayes
 
-### 03 (0.9792)
+### 03 (0.9792)** the private score for this kernel is ~0.9809
 - TF-IDF
 - Cross-validation
 
